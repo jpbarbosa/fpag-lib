@@ -9,10 +9,6 @@ describe('Irrf usage suite', () => {
       irrf = Irrf.newFromSalary(1000);
     });
 
-    it('calculation basis should be event salary minus inss', () => {
-      expect(irrf.calculationBasis).toBe(irrf.event.salary - irrf.getInss());
-    });
-
     it('earning should return false', () => {
       expect(Irrf.earning).toBe(false);
     });
