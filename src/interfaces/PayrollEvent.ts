@@ -1,6 +1,6 @@
-import { EventRow } from "./EventRow";
-import { Employee } from "./Employee";
-import { Tenant } from "./Tenant";
+import { EventRow } from './EventRow';
+import { Employee } from './Employee';
+import { Tenant } from './Tenant';
 
 export interface PayrollEvent {
   id: number;

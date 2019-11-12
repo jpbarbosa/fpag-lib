@@ -1,6 +1,6 @@
-import { User } from "./User";
-import { Employee } from "./Employee";
-import { PayrollEvent } from "./PayrollEvent";
+import { User } from './User';
+import { Employee } from './Employee';
+import { PayrollEvent } from './PayrollEvent';
 
 export interface NewTenant {
   name: string;
