@@ -1,5 +1,6 @@
-import { EventRow } from './EventRow';
-import { Employee } from './Employee';
+import { EventRow } from "./EventRow";
+import { Employee } from "./Employee";
+import { Tenant } from "./Tenant";
 
 export interface PayrollEvent {
   id: number;
@@ -11,4 +12,5 @@ export interface PayrollEvent {
   dependents: number;
   employee: Employee;
   eventRows: EventRow[];
+  tenant: Tenant;
 }
