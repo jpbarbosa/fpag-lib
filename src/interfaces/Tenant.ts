@@ -4,9 +4,9 @@ import { PayrollEvent } from './PayrollEvent';
 
 export interface NewTenant {
   name: string;
-  users: User[];
-  employees: Employee[];
-  payrollEvents: PayrollEvent[];
+  users?: User[];
+  employees?: Employee[];
+  payrollEvents?: PayrollEvent[];
 }
 
 export interface Tenant extends NewTenant {

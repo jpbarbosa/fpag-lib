@@ -12,5 +12,5 @@ export interface PayrollEvent {
   dependents: number;
   employee: Employee;
   eventRows: EventRow[];
-  tenant: Tenant;
+  tenant?: Tenant;
 }

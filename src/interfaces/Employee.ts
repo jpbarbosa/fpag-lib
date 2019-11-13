@@ -4,7 +4,7 @@ export interface NewEmployee {
   name: string;
   salary: number;
   admission: Date;
-  tenant: Tenant;
+  tenant?: Tenant;
 }
 
 export interface Employee extends NewEmployee {

@@ -4,7 +4,7 @@ export interface NewUser {
   name: string;
   email: string;
   password: string;
-  tenant: Tenant;
+  tenant?: Tenant;
 }
 
 export interface User extends NewUser {
